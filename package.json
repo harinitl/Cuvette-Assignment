@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch 'src/**/*' --exec ts-node src/index.ts",
+    "start": "npx nodemon --watch 'src/**/*' --exec ts-node src/index.ts",
     "build": "tsc",
-    "serve": "node dist/index.js",
-    "build:serve": "npm run build && npm run serve"
+    "serve": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
