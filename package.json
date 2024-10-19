@@ -5,7 +5,8 @@
   "scripts": {
     "start": "nodemon --watch 'src/**/*' --exec ts-node src/index.ts",
     "build": "tsc",
-    "serve": "node dist/index.js"
+    "serve": "node dist/index.js",
+    "build:serve": "npm run build && npm run serve"
   },
   "keywords": [],
   "author": "",
